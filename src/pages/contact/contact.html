@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Contact
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-list-header>Follow us on Twitter</ion-list-header>
+    <ion-item>
+      <ion-icon name="ionic" item-left></ion-icon>
+      @ionicframework
+	  <button ion-button full [navPush]="page3">page3</button>
+	  
+	   <button ion-button full (click)="goToPage3()">page3 fun</button>
+    </ion-item>
+  </ion-list>
+</ion-content>
